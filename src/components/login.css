@@ -1,0 +1,50 @@
+.formWrapper {
+  margin-top: 30px;
+}
+
+.loginForm {
+  background-color: white;
+  border-radius: 15px;
+
+  text-align: center;
+  padding: 15px;
+}
+
+.loginInput {
+  width: 90%;
+  border: 1px solid hsl(246, 25%, 77%);
+  border-radius: 5px;
+
+  padding: 15px;
+}
+
+.submitButton {
+  color: white;
+  background-color: hsl(154, 59%, 51%);
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  width: 100%;
+}
+
+.errorSpan {
+  color: hsl(0, 100%, 74%);
+  margin-top: 0px;
+  margin-left: 40%;
+  visibility: hidden;
+  font-size: 11px;
+}
+
+.errorIcon {
+  visibility: hidden;
+}
+
+.disclaimer {
+  color: hsl(246, 25%, 77%);
+  font-size: 14px;
+}
+
+.terms {
+  color: hsl(0, 100%, 74%);
+  font-weight: 500;
+}
